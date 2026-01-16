@@ -6,10 +6,7 @@ import axios from "axios";
     name: user.name,
     address: `${user.address.street}, ${user.address.suite}, ${user.address.city}, ${user.address.zipcode}`,
   }));
-  catch (error) {
-    console.error("Error fetching user data:", error);
-    return [];
-  } 
+   
  }
   
 
